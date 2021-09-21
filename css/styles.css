@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html, main, body, form, table {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(50, 54, 57);
+}
+
+.title {
+    color: lightslategray;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form, table {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    
+}
+
+table, td, th {
+    border: 1px solid;
+    border-color: lightgray;
+    color: rgb(61, 64, 66);
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.th_1 {
+    color: rgb(45, 119, 184);
+}
+
+.th_fc {
+    background-color: rgb(24, 160, 184);
+}
+
+.bottom{
+    margin:0;
+}
+
+.top{
+    margin: 0 auto;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-align:center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.in-group {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+.margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

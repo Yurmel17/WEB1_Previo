@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación en la web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1><text class="title"><b>Web</b>Developer</text></h1>
+    </header>
+
+    <main>
+        <form class="margin">
+            <label class="margin">Formulario de afiliación</label><br>
+            <div class="input-group flex-nowrap in-group">
+                <input type="text" class="form-control" placeholder="Nombre completo" aria-label="nombre" aria-describedby="addon-wrapping" name="nombre" id="nombre_usr">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(119 118 117)" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+            </div><br>
+            <div class="input-group flex-nowrap in-group">
+                <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="addon-wrapping" name="email" id="email_usr">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(119 118 117)" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                </svg>
+            </div><br>
+            <div class="input-group flex-nowrap in-group">
+                <input type="text" class="form-control" placeholder="text" aria-label="telefono" aria-describedby="addon-wrapping" name="telefono" id="tel_usr">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(119 118 117)" class="bi bi-telephone-fill" viewBox="0 0 16 16" transform="scale(-1,1)">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+            </div><br>
+            <div class="input-group flex-nowrap in-group">
+                <input type="text" class="form-control" placeholder="" aria-label="gustos" aria-describedby="addon-wrapping" name="gustos" id="gustos_usr">
+                <button type="button" class="btn btn-outline-success">Gustos</button>
+            </div><br>
+            <div class="input-group in-group">
+
+                <div>
+                    <svg class="bottom"><rect cx="10" cy="10" rx="20" ry="20" height="100" width="100" stroke="none" fill="rgb(39 168 68)"></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-flag top" viewBox="0 0 16 16">
+                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"/>
+                    </svg>
+                </div>
+
+                <table id="gustos-tb">
+                    <tr>
+                        <th>Gusto</th>
+                        <th>%</th>
+                        <th>edit</th>
+                    </tr>
+                </table>
+
+            </div><br>
+
+            <a href="https://sites.google.com/view/dweb1-uis/home"><text class="margin">Ir a Site de P web</text></a>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
