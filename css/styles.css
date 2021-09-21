@@ -24,7 +24,7 @@ body {
 form, table {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
-    
+    width: 450px;
 }
 
 table, td, th {
@@ -37,7 +37,6 @@ table {
     width: 80%;
     border-collapse: collapse;
     text-align: center;
-    margin-left: 10px;
 }
 
 .th_1 {
@@ -61,8 +60,8 @@ table {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 30% 70%;
+    display: inline-flex;
+    grid-template-columns: 20% 79%;
 }
 
 .in-group {
@@ -78,3 +77,12 @@ table {
     margin-bottom: 10px;
 }
 
+.gustos-tb{
+    width: 70%;
+    height: 70%;
+    font-size: 10px;
+}
+
+.table2 {
+    border: none;
+}
